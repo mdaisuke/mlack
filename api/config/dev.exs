@@ -44,3 +44,6 @@ config :mlack, Mlack.Repo,
   database: "mlack_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :guardian, Guardian,
+  secret_key: "DgKab1RGVAksRNv4U8AIp53WIoGw7ZM0hboHmXVl2vhrCIKUwt7t7EnYkRVIl67q"

@@ -1,0 +1,5 @@
+# web
+
+# api
+
+Our create (login) action uses the module’s private authenticate function, and either receives our user or an error. Then just like we did in the sign up action, we sign in the user on the connection with Guardian and receive a token. Then we can respond with the same SessionView show.json template.
