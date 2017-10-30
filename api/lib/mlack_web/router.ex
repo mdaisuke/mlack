@@ -7,5 +7,7 @@ defmodule MlackWeb.Router do
 
   scope "/api", MlackWeb do
     pipe_through :api
+
+    resources "/users", UserController, only: [:create]
   end
 end
